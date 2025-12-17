@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.head{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 3.5rem;
+    color: rgb(4, 111, 76);
+}
+.container{
+    text-align: center;
+    margin-top: 50px;
+    border-right: 14px solid rgba(162, 172, 223, 0.462);
+    box-shadow: 15px  5px 55px rgb(53, 63, 11);
+    border-radius: 25px;
+    height: 300px;
+    width:  400px;
+    margin-left: 37%;
+    padding-top: 100px;
+    background-color: rgb(62, 111, 123);
+}
+
+label{
+    font-size: 1.6rem;
+    color: rgba(255, 255, 255, 0.885);
+    font-weight: bold;
+    
+}
+
+input{
+    padding: 12px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    border-radius: 10px;
+    width: 55%;
+    background-color: antiquewhite;
+}
