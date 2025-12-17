@@ -12,8 +12,8 @@
 .container{
     text-align: center;
     margin-top: 50px;
-    border-right: 14px solid rgba(162, 172, 223, 0.462);
-    box-shadow: 15px  5px 55px rgb(53, 63, 11);
+    border-right: 14px solid rgba(53, 63, 11);
+    box-shadow: 15px  11px 60px rgb(53, 63, 11);
     border-radius: 25px;
     height: 300px;
     width:  400px;
@@ -33,7 +33,15 @@ input{
     padding: 12px;
     margin-top: 18px;
     margin-bottom: 18px;
-    border-radius: 10px;
+    border-radius: 15px;
     width: 55%;
-    background-color: antiquewhite;
+    background-color: aliceblue;
+
+}
+
+input:hover{
+    background-color:rgb(110, 118, 125);
+    cursor: pointer;
+    font-size: 1.3rem;
+    border: 4px solid black ;
 }
