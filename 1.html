@@ -8,11 +8,13 @@
 </head>
 <body>
     <h1 class="head">Login form</h1>
-<form class="container">
-    <label for="email">Email</label><br>
-    <input type="email"><br>
+<form class="container" id="login-form" name="login-form">
+    <label for="email" >Email</label><br>
+    <input type="email" form="email" id="email" ><br>
     <label for="password">Password</label><br>
-    <input type="password"><br>
+    <input type="password" form="password" id="password" ><br>
+    <button type="submit" id="btnlogin" >Login</button>
 </form>
+<script src="script.js"></script>
 </body>
 </html>
